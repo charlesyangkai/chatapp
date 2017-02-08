@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+         FIRApp.configure()
         // Override point for customization after application launch.
+        
+        
+        //display page step 1
+        displayLogin()
         return true
     }
 
@@ -43,4 +49,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
+//display page step 2
+extension AppDelegate {
+    func displayLogin(){
+        let storyboard = UIStoryboard(name: "Auth", bundle: Bundle.main)
+        let controller = storyboard.instantiateViewController(withIdentifier: "authNavigation")
+        //as? LoginViewController
+        window?.rootViewController = controller
+    }
+}
+
 

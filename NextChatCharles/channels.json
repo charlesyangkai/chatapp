@@ -1,0 +1,34 @@
+{
+  "channels": [
+    {
+      "name": "Channel 1",
+      "chats" : [
+        {
+          "text": "Hey bob!",
+          "senderName": "Alice",
+          "senderId": "ac"
+        },
+        {
+          "text": "I see you",
+          "senderName": "Bob",
+          "senderId": "bb"
+        }
+      ]
+    },
+    {
+      "name": "Channel 2",
+      "chats" : [
+        {
+          "text": "Hellow world!",
+          "senderName": "Guy Sensei",
+          "senderId": "gs"
+        },
+        {
+          "text": "Hello sensei!",
+          "senderName": "Rock",
+          "senderId": "rl"
+        }
+      ]
+    }
+  ]
+}
