@@ -25,6 +25,7 @@
 		8AF09FE81E481EA800C54DFC /* ChannelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AF09FE61E481EA800C54DFC /* ChannelCell.xib */; };
 		8AF09FED1E481EE100C54DFC /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF09FEB1E481EE100C54DFC /* ChatCell.swift */; };
 		8AF09FEE1E481EE100C54DFC /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AF09FEC1E481EE100C54DFC /* ChatCell.xib */; };
+		C0BC483A1E4B09E3001DA1BD /* WAZUUUUUPPPPPPPPPPPPPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BC48391E4B09E3001DA1BD /* WAZUUUUUPPPPPPPPPPPPPViewController.swift */; };
 		C80F9BD1D585F361E701C2E2 /* Pods_NextChatCharles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FF4691A57F6FD29595160A /* Pods_NextChatCharles.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		8AF09FEB1E481EE100C54DFC /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		8AF09FEC1E481EE100C54DFC /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
 		B0FF4691A57F6FD29595160A /* Pods_NextChatCharles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextChatCharles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BC48391E4B09E3001DA1BD /* WAZUUUUUPPPPPPPPPPPPPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAZUUUUUPPPPPPPPPPPPPViewController.swift; sourceTree = "<group>"; };
 		EB68E24A4E994C23BEDF6DEC /* Pods-NextChatCharles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextChatCharles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NextChatCharles/Pods-NextChatCharles.debug.xcconfig"; sourceTree = "<group>"; };
 		F9FCF5C4DA323D068DCF793D /* Pods-NextChatCharles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextChatCharles.release.xcconfig"; path = "Pods/Target Support Files/Pods-NextChatCharles/Pods-NextChatCharles.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,6 +155,7 @@
 				8AF09FD31E4817AE00C54DFC /* ChatViewController.swift */,
 				8AF09FD91E48197400C54DFC /* LoginViewController.swift */,
 				8AF09FDB1E48198200C54DFC /* SignUpViewController.swift */,
+				C0BC48391E4B09E3001DA1BD /* WAZUUUUUPPPPPPPPPPPPPViewController.swift */,
 				8AF09FE51E481EA800C54DFC /* ChannelCell.swift */,
 				8AF09FEB1E481EE100C54DFC /* ChatCell.swift */,
 			);
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AF09FDC1E48198200C54DFC /* SignUpViewController.swift in Sources */,
+				C0BC483A1E4B09E3001DA1BD /* WAZUUUUUPPPPPPPPPPPPPViewController.swift in Sources */,
 				8A7A078F1E4864AF00675AFD /* Channel.swift in Sources */,
 				8AF09FE71E481EA800C54DFC /* ChannelCell.swift in Sources */,
 				8AF09FD41E4817AE00C54DFC /* ChatViewController.swift in Sources */,
